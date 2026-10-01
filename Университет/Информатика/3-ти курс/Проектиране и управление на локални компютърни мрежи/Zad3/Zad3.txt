@@ -1,0 +1,99 @@
+router---------------
+R1#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#interface f0/0
+R1(config-if)#ip address 192.168.100.1 255.255.255.0
+R1(config-if)#no shutdown
+R1(config-if)#
+*Mar  1 00:35:10.623: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar  1 00:35:11.623: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+R1(config-if)#exit
+R1(config)#interface f0/1
+R1(config-if)#ip address 192.168.10.1 255.255.255.252
+R1(config-if)#no shutdown
+R1(config-if)#
+*Mar  1 00:37:30.543: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Mar  1 00:37:31.543: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+R1(config-if)#exit
+R1(config)#ip dhcp pool p100
+R1(dhcp-config)#network 192.168.100.0 255.255.255.0
+R1(dhcp-config)#default-router 192.168.100.1
+R1(dhcp-config)#dns-server 192.168.100.1
+R1(dhcp-config)#lease 0 6 15
+R1(dhcp-config)#domain-name test.com
+R1(dhcp-config)#exit
+R1(config)#ip dhcp excluded-address 192.168.100.1 192.168.100.20
+R1(config)#exit
+R1#
+*Mar  1 00:45:42.655: %SYS-5-CONFIG_I: Configured from console by console
+R1#write
+Building configuration...
+[OK]
+
+
+pc1---------------------
+PC1> ip dhcp
+DDORA IP 192.168.100.21/24 GW 192.168.100.1
+
+PC1> ping 192.168.10.2
+192.168.10.2 icmp_seq=1 timeout
+84 bytes from 192.168.10.2 icmp_seq=2 ttl=63 time=62.445 ms
+84 bytes from 192.168.10.2 icmp_seq=3 ttl=63 time=61.538 ms
+84 bytes from 192.168.10.2 icmp_seq=4 ttl=63 time=62.168 ms
+84 bytes from 192.168.10.2 icmp_seq=5 ttl=63 time=47.037 ms
+
+PC1> save
+Saving startup configuration to startup.vpc
+.  done
+
+
+
+pc2-------------------
+PC2> ip dhcp
+DDORA IP 192.168.100.22/24 GW 192.168.100.1
+
+PC2> save
+Saving startup configuration to startup.vpc
+.  done
+
+
+pc3----------------------
+PC3> ip dhcp
+DDORA IP 192.168.100.23/24 GW 192.168.100.1
+
+PC3> save
+Saving startup configuration to startup.vpc
+.  done
+
+
+pc4----------------------
+PC4> show ip
+
+NAME        : PC4[1]
+IP/MASK     : 0.0.0.0/0
+GATEWAY     : 0.0.0.0
+DNS         :
+MAC         : 00:50:79:66:68:03
+LPORT       : 10020
+RHOST:PORT  : 127.0.0.1:10021
+MTU:        : 1500
+
+PC4> ip 192.168.10.2/30 192.168.10.1
+Checking for duplicate address...
+PC1 : 192.168.10.2 255.255.255.252 gateway 192.168.10.1
+
+PC4> show ip
+
+NAME        : PC4[1]
+IP/MASK     : 192.168.10.2/30
+GATEWAY     : 192.168.10.1
+DNS         :
+MAC         : 00:50:79:66:68:03
+LPORT       : 10020
+RHOST:PORT  : 127.0.0.1:10021
+MTU:        : 1500
+
+PC4> save
+Saving startup configuration to startup.vpc
+.  done
+

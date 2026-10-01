@@ -1,0 +1,70 @@
+Sep 24 12:45:32.164 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 24 12:45:32.166 HYPERVISOR: Started on IP = localhost, TCP port = 52846.
+Sep 24 12:45:32.167 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 24 12:45:32.168 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\fmi\GNS3\projects\Zad2\project-files\dynamips 
+Sep 24 12:45:32.185 GENERAL: working_dir=C:\Users\fmi\GNS3\projects\Zad2\project-files\dynamips
+Sep 24 12:45:32.186 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\fmi\GNS3\projects\Zad2\project-files\dynamips\097a216c-f738-4b07-a0c1-a4b332d09f5f 
+Sep 24 12:45:32.186 GENERAL: working_dir=C:\Users\fmi\GNS3\projects\Zad2\project-files\dynamips\097a216c-f738-4b07-a0c1-a4b332d09f5f
+Sep 24 12:45:32.187 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Sep 24 12:45:32.190 VM: VM R1 created.
+Sep 24 12:45:32.190 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Sep 24 12:45:32.191 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Sep 24 12:45:32.192 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 12:45:32.192 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Sep 24 12:45:32.192 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Sep 24 12:45:32.193 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Sep 24 12:45:32.193 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-2T 
+Sep 24 12:45:32.289 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 12:45:35.175 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 12:48:05.982 HYPERVISOR: exec_cmd: nio create_udp udp-ecd710a1-a2eb-460e-b75f-0f32e2158f1b 10008 127.0.0.1 10009 
+Sep 24 12:48:06.268 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-ecd710a1-a2eb-460e-b75f-0f32e2158f1b 
+Sep 24 12:48:06.268 HYPERVISOR: exec_cmd: vm get_status R1 
+Sep 24 12:48:30.184 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Sep 24 12:48:30.186 VM: VM Ghost created.
+Sep 24 12:48:30.198 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 12:48:30.199 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Sep 24 12:48:30.200 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\fmi\GNS3\projects\Zad2\project-files\dynamips\C3725-AD.BIN-128.ghost' 
+Sep 24 12:48:30.201 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 24 12:48:30.203 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Sep 24 12:48:30.204 HYPERVISOR: exec_cmd: vm start Ghost 
+Sep 24 12:48:30.471 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Sep 24 12:48:30.656 VM: VM Ghost shutdown.
+Sep 24 12:48:30.656 VM: VM Ghost destroyed.
+Sep 24 12:48:30.669 HYPERVISOR: exec_cmd: vm get_status R1 
+Sep 24 12:48:30.670 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Sep 24 12:48:30.671 HYPERVISOR: exec_cmd: vm start R1 
+Sep 24 12:49:01.094 HYPERVISOR: exec_cmd: vm extract_config R1 
+Sep 24 12:49:01.114 HYPERVISOR: exec_cmd: vm extract_config R1 
+Sep 24 12:49:25.392 HYPERVISOR: exec_cmd: nio create_udp udp-acd12e26-24ba-4803-add6-4ba399b6df68 10018 127.0.0.1 10019 
+Sep 24 12:49:25.395 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-acd12e26-24ba-4803-add6-4ba399b6df68 
+Sep 24 12:49:25.396 HYPERVISOR: exec_cmd: vm get_status R1 
+Sep 24 12:49:25.396 HYPERVISOR: exec_cmd: vm slot_enable_nio R1 0 1 
+Sep 24 12:49:46.260 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 12:50:23.571 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Sep 24 12:50:23.573 VM: VM Ghost created.
+Sep 24 12:50:23.584 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 12:50:23.585 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Sep 24 12:50:23.587 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\fmi\GNS3\projects\Zad2\project-files\dynamips\C3725-AD.BIN-128.ghost' 
+Sep 24 12:50:23.588 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 24 12:50:23.589 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Sep 24 12:50:23.590 HYPERVISOR: exec_cmd: vm start Ghost 
+Sep 24 12:50:23.709 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Sep 24 12:50:23.840 VM: VM Ghost shutdown.
+Sep 24 12:50:23.840 VM: VM Ghost destroyed.
+Sep 24 12:50:23.848 HYPERVISOR: exec_cmd: vm get_status R1 
+Sep 24 12:51:37.597 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Sep 24 12:51:37.599 VM: VM Ghost created.
+Sep 24 12:51:37.611 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 12:51:37.612 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Sep 24 12:51:37.614 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\fmi\GNS3\projects\Zad2\project-files\dynamips\C3725-AD.BIN-128.ghost' 
+Sep 24 12:51:37.615 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Sep 24 12:51:37.617 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Sep 24 12:51:37.618 HYPERVISOR: exec_cmd: vm start Ghost 
+Sep 24 12:51:37.721 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Sep 24 12:51:37.750 VM: VM Ghost shutdown.
+Sep 24 12:51:37.750 VM: VM Ghost destroyed.
+Sep 24 12:51:37.757 HYPERVISOR: exec_cmd: vm get_status R1 
+Sep 24 12:51:54.113 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 12:56:40.791 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN 
+Sep 24 13:31:32.043 HYPERVISOR: exec_cmd: vm extract_config R1 
+Sep 24 13:31:32.053 HYPERVISOR: exec_cmd: vm extract_config R1 

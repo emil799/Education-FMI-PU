@@ -1,0 +1,55 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\bin\Debug\asd_u9.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\bin\Debug\asd_u9.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\bin\Debug\asd_u9.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\obj\Debug\asd_u9.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\obj\Debug\asd_u9.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\obj\Debug\asd_u9.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\obj\Debug\asd_u9.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\obj\Debug\asd_u9.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9\asd_u9\obj\Debug\asd_u9.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\bin\Debug\asd_u9.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\obj\Debug\asd_u9.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\obj\Debug\asd_u9.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\bin\Debug\asd_u9.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\bin\Debug\asd_u9.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\obj\Debug\asd_u9.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\obj\Debug\asd_u9.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\obj\Debug\asd_u9.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u9_2\asd_u9\obj\Debug\asd_u9.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\bin\Debug\asd_u9.exe.config
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\obj\Debug\asd_u9.exe
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\obj\Debug\asd_u9.pdb
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\bin\Debug\asd_u9.exe
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\bin\Debug\asd_u9.pdb
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\obj\Debug\asd_u9.Form1.resources
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\obj\Debug\asd_u9.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.exe.config
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.exe
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.pdb
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.exe
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.pdb
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csproj.GenerateResource.Cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.exe.config
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.exe.config
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\bin\Debug\asd_u9.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.Form1.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.Properties.Resources.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csproj.GenerateResource.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Път между думи\asd_u9\obj\Debug\asd_u9.pdb

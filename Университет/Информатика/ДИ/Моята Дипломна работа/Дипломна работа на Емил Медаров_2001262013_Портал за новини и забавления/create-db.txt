@@ -1,0 +1,113 @@
+-- Създаване на базата данни
+CREATE DATABASE IF NOT EXISTS daily_Brief;
+USE daily_Brief;
+
+-- Създаване на таблица Users
+CREATE TABLE Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    user_password VARCHAR(255) NOT NULL,
+    userType ENUM('client', 'admin') NOT NULL,
+    user_email VARCHAR(100) NOT NULL UNIQUE,
+    user_first_name VARCHAR(50),
+    user_last_name VARCHAR(50),
+    user_registered_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Създаване на таблица Categories
+CREATE TABLE Categories (
+    category_id INT AUTO_INCREMENT PRIMARY KEY,
+    category_name VARCHAR(100) NOT NULL
+);
+
+-- Добавяне на редове в таблица Categories
+INSERT INTO Categories (category_id, category_name) VALUES
+(1, 'България'),
+(2, 'Бизнес'),
+(3, 'Забавления'),
+(4, 'Спорт');
+
+-- Създаване на таблица Bulgaria
+CREATE TABLE Bulgaria (
+    bulgaria_id INT AUTO_INCREMENT PRIMARY KEY,
+    bulgaria_post_photo MEDIUMBLOB,
+    bulgaria_post_title VARCHAR(255) NOT NULL,
+    bulgaria_post_description TEXT,
+    location_name ENUM('София', 'Пловдив', 'Варна', 'Бургас', 'Стара Загора', 'Плевен', 'Русе', 'Велико Търново', 'Хасково', 'Кърджали') NOT NULL,
+    date_published TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    category_id INT,
+    user_id INT,
+    FOREIGN KEY (category_id) REFERENCES Categories(category_id),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+FOREIGN KEY (bulgaria_id) REFERENCES Comments(bulgaria_id)
+	
+);
+
+-- Създаване на таблица Business
+CREATE TABLE Business (
+    business_id INT AUTO_INCREMENT PRIMARY KEY,
+    business_post_photo MEDIUMBLOB,
+    business_post_title VARCHAR(255) NOT NULL,
+    business_post_description TEXT,
+    business_type ENUM('Технологии', 'Автомобили') NOT NULL,
+    date_published TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    category_id INT,
+    user_id INT,
+    FOREIGN KEY (category_id) REFERENCES Categories(category_id),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+FOREIGN KEY (business_id) REFERENCES Comments(business_id)
+);
+
+-- Създаване на таблица Entertainments
+CREATE TABLE Entertainments (
+    entertainment_id INT AUTO_INCREMENT PRIMARY KEY,
+    entertainment_post_photo MEDIUMBLOB,
+    entertainment_post_title VARCHAR(255) NOT NULL,
+    entertainment_post_description TEXT,
+    entertainment_type ENUM('Вицове', 'Хороскопи', 'Филми', 'Пътувания', 'Технологии', 'Любопитно') NOT NULL,
+    date_published TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    category_id INT,
+    user_id INT,
+    FOREIGN KEY (category_id) REFERENCES Categories(category_id),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+FOREIGN KEY (entertainment_id) REFERENCES Comments(entertainment_id)
+);
+
+-- Създаване на таблица Sport
+CREATE TABLE Sport (
+    sport_id INT AUTO_INCREMENT PRIMARY KEY,
+    sport_post_photo MEDIUMBLOB,
+    sport_post_title VARCHAR(255) NOT NULL,
+    sport_post_description TEXT,
+    sport_type ENUM('БГ Футбол', 'Баскетбол', 'Волейбол', 'Тенис') NOT NULL,
+    date_published TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    category_id INT,
+    user_id INT,
+    FOREIGN KEY (category_id) REFERENCES Categories(category_id),
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+FOREIGN KEY (sport_id) REFERENCES Comments(sport_id)
+);
+
+-- Създаване на таблица Comments
+CREATE TABLE Comments (
+    comment_id INT AUTO_INCREMENT PRIMARY KEY,
+    comment_author_name VARCHAR(100) NOT NULL,
+    comment_author_email VARCHAR(100) NOT NULL,
+    comment_date_gmt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    comment_content TEXT NOT NULL,
+    user_id INT,
+    bulgaria_id INT,
+    business_id INT,
+    entertainment_id INT,
+    sport_id INT,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+    FOREIGN KEY (bulgaria_id) REFERENCES Bulgaria(bulgaria_id),
+    FOREIGN KEY (business_id) REFERENCES Business(business_id),
+    FOREIGN KEY (entertainment_id) REFERENCES Entertainments(entertainment_id),
+    FOREIGN KEY (sport_id) REFERENCES Sport(sport_id)
+);
+
+-- Добавяне на уникален ключ за коментари, за да позволим само един от булгариите, бизнесите, развлекателните и спортните събития
+ALTER TABLE Comments
+ADD CONSTRAINT unique_comment_source
+UNIQUE (bulgaria_id, business_id, entertainment_id, sport_id);

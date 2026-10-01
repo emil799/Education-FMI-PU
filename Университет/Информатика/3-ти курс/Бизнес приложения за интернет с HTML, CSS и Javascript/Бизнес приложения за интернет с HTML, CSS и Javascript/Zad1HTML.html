@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДДС</title>
+</head>
+<body>
+    <h2>ДДС</h2>
+    <script language="javascript">
+        var ime = prompt("Задайте името на стоката:", "")
+        var ezena = prompt("Задайте ед. цена:", "")
+        ezena = eval(ezena)
+        var kol = prompt("Задайте количество на стоката:", "")
+        kol = eval(kol)
+        var dds = prompt("Задайте ДДС:", "")
+        dds = eval(dds)
+        var s = ezena * kol
+        var s1 = s + dds * s / 100
+        s1 = Math.round(s1 * 100) / 100
+        var ime = prompt("Задайте името на стоката:", "")
+        document.write("<table border=4 bordercolor=black cellspacing=0 width=50%>")
+        document.write("<caption> <b> <big> Изчисляване на ДДС </big> </b> </caption>")
+        document.write("<tr> <th> Име на стоката <th> " + ime + "</tr>")
+        document.write("<tr> <th> Ед. цена <th> " + ezena + "</tr>")
+        document.write("<tr> <th> Количество <th> " + kol + "</tr>")
+        document.write("<tr> <th> ДДС в % <th> " + dds + "</tr>")
+        document.write("<tr> <th> Обща сума с ДДС <th> " + s1 + "</tr>")
+        document.write("</table")
+    </script>
+</body>
+</html>

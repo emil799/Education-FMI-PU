@@ -1,0 +1,42 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\bin\Debug\uht_5.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\obj\Debug\uht_5.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\obj\Debug\uht_5.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\obj\Debug\uht_5.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\obj\Debug\uht_5.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\bin\Debug\uht_5.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\bin\Debug\uht_5.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\obj\Debug\uht_5.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_5\uht_5\obj\Debug\uht_5.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_5\uht_5\bin\Debug\uht_5.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_5\uht_5\obj\Debug\uht_5.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_5\uht_5\obj\Debug\uht_5.pdb
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.exe.config
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.exe
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.pdb
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.exe
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.pdb
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csproj.GenerateResource.Cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.exe.config
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csproj.CoreCompileInputs.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.pdb
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.exe.config
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.exe
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\bin\Debug\uht_5.pdb
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csproj.AssemblyReference.cache
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.Form1.resources
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.Properties.Resources.resources
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csproj.GenerateResource.cache
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.csproj.CoreCompileInputs.cache
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.exe
+C:\Users\grmed\Desktop\3-ти курс\Алгоритми и структури от данни (C#)\C# Projects\Бройни системи-преобразуване\uht_5\obj\Debug\uht_5.pdb

@@ -1,0 +1,40 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\bin\Debug\uht_10.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\bin\Debug\uht_10.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\bin\Debug\uht_10.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\obj\Debug\uht_10.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\obj\Debug\uht_10.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\obj\Debug\uht_10.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\obj\Debug\uht_10.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\obj\Debug\uht_10.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_10\uht_10\obj\Debug\uht_10.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_11\uht_10\bin\Debug\uht_10.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_11\uht_10\obj\Debug\uht_10.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_11\uht_10\obj\Debug\uht_10.pdb
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.exe.config
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.exe
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.pdb
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.exe
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.pdb
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.Form1.resources
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.exe.config
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.exe
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.pdb
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.exe
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.pdb
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.csproj.GenerateResource.Cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.exe.config
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\bin\Debug\uht_10.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Минимален път в граф\uht_10\obj\Debug\uht_10.csproj.CoreCompileInputs.cache

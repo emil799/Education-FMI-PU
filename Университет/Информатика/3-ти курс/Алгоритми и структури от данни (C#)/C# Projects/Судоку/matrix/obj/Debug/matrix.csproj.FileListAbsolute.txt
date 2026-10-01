@@ -1,0 +1,50 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\bin\Debug\matrix.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\bin\Debug\matrix.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\bin\Debug\matrix.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\obj\Debug\matrix.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\obj\Debug\matrix.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\obj\Debug\matrix.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\obj\Debug\matrix.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\obj\Debug\matrix.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\obj\Debug\matrix.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\bin\Debug\matrix.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\obj\Debug\matrix.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\matrix\matrix\obj\Debug\matrix.pdb
+C:\Users\angel\Desktop\Projects\Судоку\matrix\bin\Debug\matrix.exe.config
+C:\Users\angel\Desktop\Projects\Судоку\matrix\obj\Debug\matrix.exe
+C:\Users\angel\Desktop\Projects\Судоку\matrix\obj\Debug\matrix.pdb
+C:\Users\angel\Desktop\Projects\Судоку\matrix\bin\Debug\matrix.exe
+C:\Users\angel\Desktop\Projects\Судоку\matrix\bin\Debug\matrix.pdb
+C:\Users\angel\Desktop\Projects\Судоку\matrix\obj\Debug\matrix.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Судоку\matrix\obj\Debug\matrix.Form1.resources
+C:\Users\angel\Desktop\Projects\Судоку\matrix\obj\Debug\matrix.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Судоку\matrix\obj\Debug\matrix.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\bin\Debug\matrix.exe.config
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\obj\Debug\matrix.exe
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\obj\Debug\matrix.pdb
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\bin\Debug\matrix.exe
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\bin\Debug\matrix.pdb
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\obj\Debug\matrix.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\obj\Debug\matrix.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\obj\Debug\matrix.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Судоку\matrix\obj\Debug\matrix.csproj.GenerateResource.Cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\bin\Debug\matrix.exe.config
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\bin\Debug\matrix.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\bin\Debug\matrix.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.csproj.CoreCompileInputs.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\bin\Debug\matrix.exe.config
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\bin\Debug\matrix.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\bin\Debug\matrix.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.Form1.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.Properties.Resources.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.csproj.GenerateResource.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Судоку\matrix\obj\Debug\matrix.pdb

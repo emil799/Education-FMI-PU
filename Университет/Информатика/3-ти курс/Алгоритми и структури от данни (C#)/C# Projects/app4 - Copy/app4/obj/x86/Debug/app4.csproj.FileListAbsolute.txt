@@ -1,0 +1,91 @@
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\bin\Debug\app4.exe
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\bin\Debug\app4.pdb
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\obj\x86\Debug\app4.exe
+C:\Users\Angel Golev\AppData\Local\Temporary Projects\app4\obj\x86\Debug\app4.pdb
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\obj\x86\Debug\app4.exe
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\obj\x86\Debug\app4.pdb
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\bin\Debug\app4.exe
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\bin\Debug\app4.pdb
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Angel Golev\documents\visual studio 2010\Projects\app4\app4\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\obj\x86\Debug\app4.exe
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\obj\x86\Debug\app4.pdb
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\bin\Debug\app4.exe
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\bin\Debug\app4.pdb
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Angel Golev\Desktop\University\UHT\Comb.Algo\app4\app4\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.exe
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.pdb
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\bin\Debug\app4.exe
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\bin\Debug\app4.pdb
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Angel Golev\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Angel\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.exe
+C:\Users\Angel\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.pdb
+C:\Users\Angel\Desktop\University\UHT\Projects2\app4\app4\bin\Debug\app4.exe
+C:\Users\Angel\Desktop\University\UHT\Projects2\app4\app4\bin\Debug\app4.pdb
+C:\Users\Angel\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\Angel\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\Angel\Desktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.csproj.GenerateResource.Cache
+D:\Hard Drive Lenovo\LenovoDesktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.exe
+D:\Hard Drive Lenovo\LenovoDesktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.pdb
+D:\Hard Drive Lenovo\LenovoDesktop\University\UHT\Projects2\app4\app4\bin\Debug\app4.exe
+D:\Hard Drive Lenovo\LenovoDesktop\University\UHT\Projects2\app4\app4\bin\Debug\app4.pdb
+D:\Hard Drive Lenovo\LenovoDesktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.csprojResolveAssemblyReference.cache
+D:\Hard Drive Lenovo\LenovoDesktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.Form1.resources
+D:\Hard Drive Lenovo\LenovoDesktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.Properties.Resources.resources
+D:\Hard Drive Lenovo\LenovoDesktop\University\UHT\Projects2\app4\app4\obj\x86\Debug\app4.csproj.GenerateResource.Cache
+C:\Users\Angel\Desktop\Projects2\app4\app4\obj\x86\Debug\app4.exe
+C:\Users\Angel\Desktop\Projects2\app4\app4\obj\x86\Debug\app4.pdb
+C:\Users\Angel\Desktop\Projects2\app4 - Copy\app4\obj\x86\Debug\app4.exe
+C:\Users\Angel\Desktop\Projects2\app4 - Copy\app4\obj\x86\Debug\app4.pdb
+G:\Users\Angel\Desktop\Projects2\app4 - Copy\app4\obj\x86\Debug\app4.exe
+G:\Users\Angel\Desktop\Projects2\app4 - Copy\app4\obj\x86\Debug\app4.pdb
+C:\Users\angel\Desktop\Projects\app4 - Copy\app4\obj\x86\Debug\app4.exe
+C:\Users\angel\Desktop\Projects\app4 - Copy\app4\obj\x86\Debug\app4.pdb
+C:\Users\angel\Desktop\Projects\app4 - Copy\app4\bin\Debug\app4.exe
+C:\Users\angel\Desktop\Projects\app4 - Copy\app4\bin\Debug\app4.pdb
+C:\Users\angel\Desktop\Projects\app4 - Copy\app4\obj\x86\Debug\app4.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\app4 - Copy\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\angel\Desktop\Projects\app4 - Copy\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\app4 - Copy\app4\obj\x86\Debug\app4.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.exe
+C:\Users\angel\Desktop\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.pdb
+C:\Users\angel\Desktop\C# Projects\app4 - Copy\app4\bin\Debug\app4.exe
+C:\Users\angel\Desktop\C# Projects\app4 - Copy\app4\bin\Debug\app4.pdb
+C:\Users\angel\Desktop\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\angel\Desktop\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.csproj.GenerateResource.Cache
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\bin\Debug\app4.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\bin\Debug\app4.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.csproj.CoreCompileInputs.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\bin\Debug\app4.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\bin\Debug\app4.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.Form1.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.Properties.Resources.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.csproj.GenerateResource.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\app4 - Copy\app4\obj\x86\Debug\app4.pdb

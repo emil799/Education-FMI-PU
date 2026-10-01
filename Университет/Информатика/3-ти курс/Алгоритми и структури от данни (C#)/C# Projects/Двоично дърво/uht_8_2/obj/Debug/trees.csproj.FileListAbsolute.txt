@@ -1,0 +1,38 @@
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe.config
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.pdb
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\trees.Form1.resources
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\trees.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.exe
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.pdb
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe.config
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.exe
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.pdb
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.pdb
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csproj.GenerateResource.Cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe.config
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe.config
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.Form1.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.Properties.Resources.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csproj.GenerateResource.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\trees.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.pdb

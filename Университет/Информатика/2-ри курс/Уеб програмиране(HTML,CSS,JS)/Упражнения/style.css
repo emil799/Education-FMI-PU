@@ -1,0 +1,99 @@
+#header{
+		width: 90%;
+		height: 10%;
+		margin-left: 5%;
+}
+#nav{
+		width: 90%;
+		height: 10%;
+		margin-left: 5%;
+}
+#content{
+		width: 90%;
+		height: 80%;
+		margin-left: 5%;
+		background-color: white;
+}
+h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+}
+p{
+	text-align: justify;
+	font-size: 12px;
+	text-indent: 40px;
+}
+body{
+	background-color: lightgrey;
+}
+ul{
+	list-style-type: square;
+	margin: 0px;
+	padding: 0px;
+}
+li#l{
+	font-size: arial;
+	margin-left: 40px;
+}
+
+ul#menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: darkblue;
+}
+li#el a#am:link, li#el a#am:visited {
+	float: left;
+	padding: 8px;
+	margin-left: 0px;
+	display: block;
+	color: white;
+	background-color: darkblue;
+	text-decoration: none;
+}
+li#el a#am:active {
+	float: left;
+	padding: 8px;
+	margin-left: 0px;
+	display: block;
+	color: darkblue;
+	background-color: white;
+	text-decoration: none;
+}
+
+a:link {
+	color: darkblue;
+}
+a:visited {
+	color: darkblue;
+}
+a:hover {
+	color:darkblue;
+	text-decoration: none;
+}
+a:active{
+	color: white;
+	background-color: darkblue;
+}
+tr#hr{
+	text-align: center;
+	font-weight: bold;
+	background-color: darkblue;
+	color: white;
+}
+tr#sy{
+	text-align: center;
+	font-weight: bold;
+	background-color: lightgrey;
+}
+table{
+	border-collapse: collapse;
+}
+
+
+	
+

@@ -1,2 +1,0 @@
-C:\Users\grmed\source\repos\LengthAndFaceOfACircle\Debug\LengthAndFaceOfACircle.exe
-C:\Users\grmed\source\repos\LengthAndFaceOfACircle\Debug\LengthAndFaceOfACircle.pdb

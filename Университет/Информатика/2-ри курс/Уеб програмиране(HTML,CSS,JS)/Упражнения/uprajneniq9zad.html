@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Bin</title>
+<script type="text/javascript">
+ function compute()
+ {
+  var s=document.getElementById("form1").value;
+  var r=parseFloat(s);
+  if(document.forms[0].Choice[0].checked)
+     r=r*r;
+  else 
+     r=Math.sqrt(r);
+  s=String(r);
+  document.getElementById("form2").value=s;
+ }
+</script>
+
+</head>
+<body>
+Input an integer:
+<input type="text" id="form1" value="0" size="20">
+<br>What you want to compute:
+<form>
+<input type="radio" checked="checked" name="Choice" value="Square">
+Square <br>
+<input type="radio" name="Choice" value="SquareRoot">
+Square Root: 
+</form>
+<input type="submit" id="button1" value="Click to compute" onclick="compute()">
+<br>The result is: 
+<input type="text" readonly id="form2" value="0" size="20">
+</body>
+</html>

@@ -1,0 +1,21 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\bin\Debug\uht_8_2.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\bin\Debug\uht_8_2.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\bin\Debug\uht_8_2.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\obj\Debug\uht_8_2.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\obj\Debug\uht_8_2.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\obj\Debug\uht_8_2.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\obj\Debug\uht_8_2.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\obj\Debug\uht_8_2.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\obj\Debug\uht_8_2.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\bin\Debug\uht_8_2.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\obj\Debug\uht_8_2.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_8_2\uht_8_2\obj\Debug\uht_8_2.pdb
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe.config
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.exe
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.pdb
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.exe
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\bin\Debug\uht_8_2.pdb
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.Form1.resources
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Двоично дърво\uht_8_2\obj\Debug\uht_8_2.csproj.GenerateResource.Cache

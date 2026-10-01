@@ -1,0 +1,101 @@
+<!--Създайте 2 страници, които да са свързани с хипервръзки, със следното съдържание.
+Страница 1:
+Обява за наемане на служител, съдържаща:
+- Заглавие 
+- Описание на позицията, вкл. неподреден списък с професионални задължения и подреден списък с необходими документи за кандидатстване. Използвайте и таговете за форматиране на текст.
+- Снимка на работното място, разположена от ляво на описанието
+Страница 2:
+Попълнена таблица от вида:
+Необходими квалификации
+
+Квалификация   Социални умения   Езикови умения colspan="2"
+rowspan="2"    rowspan="2"       език   ниво
+td             td                td     td
+
+Създайте сайт на фирма, съдържащ поне следните панели (части на страницата):
+-        заглавен панел с име на фирмата,
+-        меню (За фирмата, За собственика, Продукти, Поръчки, Мнения, Работа),
+-        новини,
+-        основен панел за показване на информацията на отделните страници.
+
+За опциите (чрез хипервръзки) в менюто направете следното:
+
+За собственика - Идол - връзка към Задание 1;
+
+Продукти - ще представя галерия на продуктите, които предлагате с название и снимка (ще се реализира в друго задание).
+
+Поръчки - свързва с форма, в която може да поръчате един продукт по име от списък с продукти, въвежда адреса на купувача, мнение, .... (проявете фантазиия)
+
+Работа - връзка към създадената обява
+
+Използвайте максимален брой различни входни елементи и атрибути за формите.
+
+Дизайнът ще се прави в следващо задание. Менюто да се реализира като обикновен списък от хипервръзки. Обърнете по-голямо внимание на формите.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Задание 2</title>
+<link rel="stylesheet" type="text/css" href="WPZadanie4.css">
+<style>
+#menu{
+margin:0;
+padding:0;
+}
+podmenu a:link,a:visited{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#98bf21;
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+podmenu2{
+margin:0;
+padding:0;
+display:block;
+width:60px;
+}
+</style>
+</head>
+<body>
+<div id="container" style="width:100%">
+<div id="header" style="background-color:green;">
+<svg height="130" width="500">
+<defs>
+ <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+ <stop offset="0%" style="stop-color:white;stop-opacity:1" />
+ <stop offset="100%" style="stop-color:darkgreen;stop-opacity:1" />
+ </linearGradient>
+ </defs>
+ <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" /> 
+ <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">Deichmann</text>
+
+<h1 style="margin-bottom:0;">Deichmann</h1></svg></div>
+
+<div id="menu" style="background-color:darkgreen;height:100vh;width:20%;float:left;">
+<b>Menu</b><br>
+<div id="podmenu" style="background-color:darkgreen;height:10vh;width:20%;float:left";>За фирмата<br>
+<a href="WPZadanie2(4).html">Партньори<br></a>
+<a href="WPZadanie2(5).html">Развитие<br></a>
+</div>
+<div id="podmenu2" style="background-color:darkgreen;height:10vh;width:20%;float:left;"><a href="WPZadanie1.html">За собственика<br></a>
+<a href="WPZadanie1.html">Пример за подражание<br></a>
+<a href="WPZadanie2(6).html">Филм<br></a>
+<a href="WPZadanie2(7).html">Музика<br></a>
+</div>
+<a href="WPZadanie5.html">Продукти<br></a>
+Поръчки<br>
+Мнения<br>
+<a href="WPZadanie2.html">Работа</a>
+</div>
+
+<div id="content" style="background-color:white;height:100vh;width:70%;float:left;">Content goes here</div>
+<div id="news" style="background-color:gray;height:100vh;width:10%;float:left;">NEWS</div>
+<div id="footer" style="background-color:green;clear:both;text-align:center;">Copyright © Deichmann.bg</div>
+</div>
+</body>
+</html>

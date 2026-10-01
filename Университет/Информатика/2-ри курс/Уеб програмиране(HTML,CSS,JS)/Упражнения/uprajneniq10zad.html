@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Bin</title>
+<script type="text/javascript">
+function checkegn()
+   {
+   var s=document.forms[0].egn.value;
+   if (s.length!=10) alert("invlid input") 
+   var numbers=s.split("",10);
+   var arr=new Array(2,4,8,5,10,9,7,3,6);
+   var i;
+   var count=0;
+   for (i=0; i<10; i++) 
+    {  if (isNaN(numbers[i])) count++;}
+   if (count>0) alert("EGN must contains only numbers");
+var sum=0;
+for (i=0;i<9;i++)
+   {sum=sum+numbers[i]*arr[i];}
+var compute=sum%11;
+if (compute<10) 
+    controlnumber=compute;
+else 
+    controlnumber=0;
+if (controlnumber==numbers[9]) alert("Valid EGN")
+else alert("invalid EGN")
+}
+</script>
+
+</head>
+<body>
+<form>
+Insert EGN:
+<input type="text" id="egn" size="20" value="0"><br>
+<input type="button" id="button1" value="Check" onclick="checkegn()">
+</form>
+</body>
+</html>

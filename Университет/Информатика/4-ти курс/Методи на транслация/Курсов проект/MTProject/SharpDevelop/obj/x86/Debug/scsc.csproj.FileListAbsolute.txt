@@ -1,0 +1,7 @@
+C:\Users\grmed\source\repos\2001262013\trunk\MTProject\SharpDevelop\bin\Debug\scsc.exe.config
+C:\Users\grmed\source\repos\2001262013\trunk\MTProject\SharpDevelop\bin\Debug\scsc.exe
+C:\Users\grmed\source\repos\2001262013\trunk\MTProject\SharpDevelop\bin\Debug\scsc.pdb
+C:\Users\grmed\source\repos\2001262013\trunk\MTProject\SharpDevelop\obj\x86\Debug\scsc.csproj.AssemblyReference.cache
+C:\Users\grmed\source\repos\2001262013\trunk\MTProject\SharpDevelop\obj\x86\Debug\scsc.csproj.CoreCompileInputs.cache
+C:\Users\grmed\source\repos\2001262013\trunk\MTProject\SharpDevelop\obj\x86\Debug\scsc.exe
+C:\Users\grmed\source\repos\2001262013\trunk\MTProject\SharpDevelop\obj\x86\Debug\scsc.pdb

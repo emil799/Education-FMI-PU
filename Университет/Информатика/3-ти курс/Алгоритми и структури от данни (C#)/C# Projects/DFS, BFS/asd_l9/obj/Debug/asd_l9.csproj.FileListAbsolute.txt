@@ -1,0 +1,30 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\bin\Debug\asd_l9.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\bin\Debug\asd_l9.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\bin\Debug\asd_l9.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\obj\Debug\asd_l9.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\obj\Debug\asd_l9.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\obj\Debug\asd_l9.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\obj\Debug\asd_l9.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\obj\Debug\asd_l9.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\obj\Debug\asd_l9.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\bin\Debug\asd_l9.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\obj\Debug\asd_l9.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l9\asd_l9\obj\Debug\asd_l9.pdb
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\bin\Debug\asd_l9.exe.config
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.exe
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.pdb
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\bin\Debug\asd_l9.exe
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\bin\Debug\asd_l9.pdb
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.Form1.resources
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\bin\Debug\asd_l9.exe.config
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.exe
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.pdb
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\bin\Debug\asd_l9.exe
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\bin\Debug\asd_l9.pdb
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.Form1.resources
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\DFS, BFS\asd_l9\obj\Debug\asd_l9.csproj.GenerateResource.Cache

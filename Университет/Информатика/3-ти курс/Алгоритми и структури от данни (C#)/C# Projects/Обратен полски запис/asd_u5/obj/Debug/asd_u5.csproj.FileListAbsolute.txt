@@ -1,0 +1,12 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\bin\Debug\asd_u5.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\bin\Debug\asd_u5.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\bin\Debug\asd_u5.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\obj\Debug\asd_u5.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\obj\Debug\asd_u5.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\obj\Debug\asd_u5.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\obj\Debug\asd_u5.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\obj\Debug\asd_u5.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\obj\Debug\asd_u5.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\bin\Debug\asd_u5.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\obj\Debug\asd_u5.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u5\asd_u5\obj\Debug\asd_u5.pdb

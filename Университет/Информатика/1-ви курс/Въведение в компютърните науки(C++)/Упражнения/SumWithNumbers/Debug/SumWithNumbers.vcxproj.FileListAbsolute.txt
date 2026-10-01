@@ -1,0 +1,2 @@
+C:\Users\grmed\source\repos\SumWithNumbers\Debug\SumWithNumbers.exe
+C:\Users\grmed\source\repos\SumWithNumbers\Debug\SumWithNumbers.pdb

@@ -1,0 +1,44 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\bin\Debug\asd_l4.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\bin\Debug\asd_l4.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\bin\Debug\asd_l4.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\obj\Debug\asd_l4.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\obj\Debug\asd_l4.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\obj\Debug\asd_l4.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\obj\Debug\asd_l4.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\obj\Debug\asd_l4.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\obj\Debug\asd_l4.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\bin\Debug\asd_l4.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\obj\Debug\asd_l4.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l4\asd_l4\obj\Debug\asd_l4.pdb
+C:\Users\angel\Desktop\Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.exe.config
+C:\Users\angel\Desktop\Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.exe
+C:\Users\angel\Desktop\Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.pdb
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.exe.config
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.exe
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.pdb
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.exe
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.pdb
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.csproj.GenerateResource.Cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.exe.config
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.csproj.CoreCompileInputs.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.exe.config
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\bin\Debug\asd_l4.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.Form1.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.Properties.Resources.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.csproj.GenerateResource.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Shell_QuickSort\asd_l4\obj\Debug\asd_l4.pdb

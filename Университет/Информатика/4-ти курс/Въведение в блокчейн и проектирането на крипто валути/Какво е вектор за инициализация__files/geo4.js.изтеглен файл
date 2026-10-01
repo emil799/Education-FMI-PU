@@ -1,0 +1,17 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "SOFIA",
+      'continent': "EU",
+      'country': "BG",
+      'region': "",
+      'dma': ""
+    },
+    'ip':"77.78.157.30"
+  }]);
+})
+//
+()
+
+;

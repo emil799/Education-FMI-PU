@@ -1,0 +1,18 @@
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\bin\Debug\asd_u1.exe.config
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\bin\Debug\asd_u1.exe
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\bin\Debug\asd_u1.pdb
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.csprojResolveAssemblyReference.cache
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.Form1.resources
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.Properties.Resources.resources
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.csproj.GenerateResource.Cache
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.exe
+c:\users\angel\documents\visual studio 2013\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_u1\bin\Debug\asd_u1.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.pdb
+C:\Users\angel\Desktop\Projects\asd_u1\asd_u1\bin\Debug\asd_u1.exe.config
+C:\Users\angel\Desktop\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.exe
+C:\Users\angel\Desktop\Projects\asd_u1\asd_u1\obj\Debug\asd_u1.pdb
+C:\Users\angel\Desktop\C# Projects\asd_u1\asd_u1\bin\Debug\asd_u1.exe.config
+C:\Users\angel\Desktop\C# Projects\asd_u1\asd_u1\obj\Debug\asd_u1.exe
+C:\Users\angel\Desktop\C# Projects\asd_u1\asd_u1\obj\Debug\asd_u1.pdb

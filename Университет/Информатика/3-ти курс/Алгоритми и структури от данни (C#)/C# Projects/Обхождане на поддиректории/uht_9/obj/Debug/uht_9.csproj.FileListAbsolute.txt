@@ -1,0 +1,50 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\bin\Debug\uht_9.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\bin\Debug\uht_9.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\bin\Debug\uht_9.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\obj\Debug\uht_9.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\obj\Debug\uht_9.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\obj\Debug\uht_9.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\obj\Debug\uht_9.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\obj\Debug\uht_9.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\obj\Debug\uht_9.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\bin\Debug\uht_9.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\obj\Debug\uht_9.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_9\uht_9\obj\Debug\uht_9.pdb
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.exe.config
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.exe
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.pdb
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.exe
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.pdb
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.Form1.resources
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.exe.config
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.exe
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.pdb
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.exe
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.pdb
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csproj.GenerateResource.Cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.exe.config
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.exe.config
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\bin\Debug\uht_9.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.Form1.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.Properties.Resources.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csproj.GenerateResource.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Обхождане на поддиректории\uht_9\obj\Debug\uht_9.pdb

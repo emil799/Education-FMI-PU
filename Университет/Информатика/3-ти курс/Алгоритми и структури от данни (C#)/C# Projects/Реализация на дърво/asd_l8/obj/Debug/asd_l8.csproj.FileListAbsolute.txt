@@ -1,0 +1,29 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\bin\Debug\asd_l8.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\bin\Debug\asd_l8.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\bin\Debug\asd_l8.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\obj\Debug\asd_l8.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\obj\Debug\asd_l8.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\obj\Debug\asd_l8.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\obj\Debug\asd_l8.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\obj\Debug\asd_l8.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\obj\Debug\asd_l8.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\bin\Debug\asd_l8.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_l8\asd_l8\obj\Debug\asd_l8.pdb
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\bin\Debug\asd_l8.exe.config
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.pdb
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\bin\Debug\asd_l8.exe
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\bin\Debug\asd_l8.pdb
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.Form1.resources
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.exe
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\bin\Debug\asd_l8.exe.config
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.exe
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.pdb
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\bin\Debug\asd_l8.exe
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\bin\Debug\asd_l8.pdb
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Реализация на дърво\asd_l8\obj\Debug\asd_l8.csproj.GenerateResource.Cache

@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <style>
+      .draggable {background-color:#00ff00;margin:5px;padding:3px;}
+      #div1,#div2 {display:inline-block;min-width:25px;min-height:10px;border-style:solid;border-width:0px;border-bottom-width:2px;}
+    </style>
+    <script>
+      function allowDrop(ev){
+        ev.preventDefault();
+      }
+      function drag(ev){
+        ev.dataTransfer.setData("Text",ev.target.id);
+      }
+      function drop(ev){
+        ev.preventDefault();
+        var data=ev.dataTransfer.getData("Text");
+        ev.target.parentNode.replaceChild(document.getElementById(data), ev.target);
+        document.getElementById(data).className = "";
+      }
+    </script>
+  </head>
+  <body>
+    <span class="draggable" id="drag1" draggable="true" ondragstart="drag(event)">drag</span>
+    <span class="draggable" id="drag2" draggable="true" ondragstart="drag(event)">drop</span>
+    <br />
+    This is a sample 
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    and 
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    sentence.
+  </body>
+</html>

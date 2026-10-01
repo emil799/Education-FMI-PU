@@ -1,0 +1,2 @@
+C:\Users\grmed\source\repos\RectangularTriangleChecker\Debug\RectangularTriangleChecker.exe
+C:\Users\grmed\source\repos\RectangularTriangleChecker\Debug\RectangularTriangleChecker.pdb

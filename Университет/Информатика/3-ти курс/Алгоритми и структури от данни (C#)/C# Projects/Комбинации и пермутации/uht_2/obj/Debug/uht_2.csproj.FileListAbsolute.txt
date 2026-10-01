@@ -1,0 +1,34 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\bin\Debug\uht_2.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\bin\Debug\uht_2.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\bin\Debug\uht_2.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\obj\Debug\uht_2.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\obj\Debug\uht_2.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\obj\Debug\uht_2.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\obj\Debug\uht_2.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\obj\Debug\uht_2.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_2\uht_2\obj\Debug\uht_2.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_2\uht_2\bin\Debug\uht_2.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_2\uht_2\obj\Debug\uht_2.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_2\uht_2\obj\Debug\uht_2.pdb
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\bin\Debug\uht_2.exe.config
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.exe
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.pdb
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\bin\Debug\uht_2.exe
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\bin\Debug\uht_2.pdb
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.Form1.resources
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\C# Projects\Комбинации и пермутации\uht_2\bin\Debug\uht_2.exe.config
+C:\Users\angel\Desktop\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.exe
+C:\Users\angel\Desktop\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\bin\Debug\uht_2.exe.config
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\bin\Debug\uht_2.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\bin\Debug\uht_2.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.Form1.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.Properties.Resources.resources
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.csproj.GenerateResource.cache
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.exe
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.pdb
+C:\Users\Milena\Desktop\FMI\C# Projects\Комбинации и пермутации\uht_2\obj\Debug\uht_2.csproj.CoreCompileInputs.cache

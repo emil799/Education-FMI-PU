@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Банка</title>
+    
+</head>
+<body>
+<h2>БАКБ</h2>
+<script language="javascript">
+    var per, w
+    var sn = prompt("Задайте началната сума >=100:","")
+    sn = eval(sn)
+    while( sn < 100)
+    {
+        alert("Грешна сума??? Въведете я отново!!!")
+        sn = prompt("Задайте началната сума >=100:","")
+        sn = eval(sn)
+    }
+    var mes = prompt("Задайте периода в месеци( 3 или 6):","")
+    mes = eval(mes)
+    while(( mes != 3) && (mes != 6)){
+        alert("Грешен период??? Въведете го отново!!!")
+        mes = prompt("Задайте периода в месеци( 3 или 6):","")
+        mes = eval(mes)
+    }
+    switch(mes){
+        case 3: if( sn <= 1000 ) per = 1.53
+        else if( sn <= 3000) per = 2.22
+        else per = 3.15
+        break
+        case 6: if( sn <= 1000 ) per = 2.54
+        else if( sn <= 3000) per = 3.33
+        else per = 4.35
+    }
+    w = sn * mes * per / 1200
+    w = Math.round(w * 100 ) / 100
+    document.write("<p> <big> <b> Лихвата при начална сума" + sn + " лева и период от "+ mes + " месеца е " + w + " лева. </b></big>")
+
+</script>
+</body>

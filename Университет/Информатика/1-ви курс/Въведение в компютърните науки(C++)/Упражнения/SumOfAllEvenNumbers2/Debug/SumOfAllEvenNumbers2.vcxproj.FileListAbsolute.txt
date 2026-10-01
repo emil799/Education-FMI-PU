@@ -1,0 +1,2 @@
+C:\Users\grmed\source\repos\SumOfAllEvenNumbers2\Debug\SumOfAllEvenNumbers2.exe
+C:\Users\grmed\source\repos\SumOfAllEvenNumbers2\Debug\SumOfAllEvenNumbers2.pdb

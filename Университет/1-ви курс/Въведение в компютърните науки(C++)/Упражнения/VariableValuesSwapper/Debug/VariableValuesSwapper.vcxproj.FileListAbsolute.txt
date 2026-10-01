@@ -1,2 +1,0 @@
-C:\Users\grmed\source\repos\VariableValuesSwapper\Debug\VariableValuesSwapper.exe
-C:\Users\grmed\source\repos\VariableValuesSwapper\Debug\VariableValuesSwapper.pdb

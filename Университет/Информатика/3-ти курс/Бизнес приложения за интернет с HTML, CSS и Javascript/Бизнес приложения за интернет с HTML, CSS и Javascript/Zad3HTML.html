@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Средна скорост</title>
+</head>
+<body>
+    <h2>Средна скорост</h2>
+    <script language="javascript">
+        var s = prompt("Задайте пътя в км:", "")
+        s=eval(s)
+        var h1 = prompt("Задайте начален час:", "")
+        h1 = eval(h1)
+        var h2 = prompt("Задайте краен час:", "")
+        h2 = eval(h2)
+        if(h2 <= h1)
+        alert("Грешен краен час")
+        else
+        {
+            var h = h2 - h1
+            var v = s / h
+            v = Math.round(v)
+            document.write("Средната скорост в е:" + v +"км/час")
+        }
+        
+    </script>
+</body>
+</html>

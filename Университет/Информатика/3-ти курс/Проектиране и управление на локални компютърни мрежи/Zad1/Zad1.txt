@@ -1,0 +1,91 @@
+pc1 ----------------------------
+
+PC1> show ip
+NAME        : PC1[1]
+IP/MASK     : 192.168.0.2/24
+GATEWAY     : 192.168.0.1
+DNS         :
+MAC         : 00:50:79:66:68:00
+LPORT       : 10010
+RHOST:PORT  : 127.0.0.1:10011
+MTU:        : 1500
+
+PC1> ping 192.168.0.4
+84 bytes from 192.168.0.4 icmp_seq=1 ttl=64 time=1.294 ms
+84 bytes from 192.168.0.4 icmp_seq=2 ttl=64 time=2.133 ms
+84 bytes from 192.168.0.4 icmp_seq=3 ttl=64 time=1.114 ms
+84 bytes from 192.168.0.4 icmp_seq=4 ttl=64 time=1.305 ms
+84 bytes from 192.168.0.4 icmp_seq=5 ttl=64 time=1.099 ms
+
+PC1> save
+Saving startup configuration to startup.vpc
+.  done
+
+pc2 ---------------------
+PC2> ip 192.168.0.3 255.255.255.0 192.168.0.1
+Checking for duplicate address...
+PC1 : 192.168.0.3 255.255.255.0 gateway 192.168.0.1
+
+PC2> show ip
+
+NAME        : PC2[1]
+IP/MASK     : 192.168.0.3/24
+GATEWAY     : 192.168.0.1
+DNS         :
+MAC         : 00:50:79:66:68:01
+LPORT       : 10006
+RHOST:PORT  : 127.0.0.1:10007
+MTU:        : 1500
+
+PC2> save
+Saving startup configuration to startup.vpc
+.  done
+
+pc3-------------------------------
+PC3> ip 192.168.0.4 255.255.255.0 192.168.0.1
+Checking for duplicate address...
+PC1 : 192.168.0.4 255.255.255.0 gateway 192.168.0.1
+
+PC3> show ip
+
+NAME        : PC3[1]
+IP/MASK     : 192.168.0.4/24
+GATEWAY     : 192.168.0.1
+DNS         :
+MAC         : 00:50:79:66:68:02
+LPORT       : 10008
+RHOST:PORT  : 127.0.0.1:10009
+MTU:        : 1500
+
+PC3> save
+Saving startup configuration to startup.vpc
+.  done
+
+pc4-------------------------------
+PC4> ip 192.168.0.20 255.255.255.0 192.168.0.10
+Checking for duplicate address...
+PC1 : 192.168.0.20 255.255.255.0 gateway 192.168.0.10
+
+PC4> ip 192.168.0.20 255.255.255.0 192.168.0.1
+Checking for duplicate address...
+PC1 : 192.168.0.20 255.255.255.0 gateway 192.168.0.1
+
+PC4> save
+Saving startup configuration to startup.vpc
+.  done
+
+pc5-------------------------------
+PC5> ip 192.168.0.21 255.255.255.0 192.168.0.1
+Checking for duplicate address...
+PC1 : 192.168.0.21 255.255.255.0 gateway 192.168.0.1
+
+PC5> save
+Saving startup configuration to startup.vpc
+.  done
+
+pc6-------------------------------
+PC1 : 192.168.0.22 255.255.255.0 gateway 192.168.0.1
+
+PC6> save
+Saving startup configuration to startup.vpc
+.  done

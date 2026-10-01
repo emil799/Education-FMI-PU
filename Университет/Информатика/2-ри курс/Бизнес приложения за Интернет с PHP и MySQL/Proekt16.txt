@@ -1,0 +1,436 @@
+1/newdb16.php
+<?php
+$conn = new mysqli("localhost","root","")
+  or die("Ne stava vrazka sas sarvara???");
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error); }
+echo "<p>Connected successfully<p>";
+
+$sql = "CREATE DATABASE Zad16";
+if ($conn->query($sql) === TRUE) {
+    echo "<p>Database created successfully";
+} else { echo "<p>Error creating database: " . $conn->error; }
+
+$conn = new mysqli("localhost","root","","Zad16"); // свързване със създадената БД
+$sql =
+"CREATE TABLE User ( ".
+"Code INT(6) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,".
+"Name VARCHAR(33) NOT NULL,".
+"Kind INT(4) NOT NULL,".
+"Product INT(4) NOT NULL,".
+"Sum DECIMAL(9,2) NOT NULL)";
+if ($conn->query($sql) === TRUE) 
+{   echo "<p>Table User created successfully"; }
+else {  echo "<p>Error creating table: " . $conn->error;  }
+$conn->close();
+?>
+
+2/config16.php
+
+<?php
+$conn = new mysqli("localhost","root","", "Zad16")
+  or die("Ne stava vrazka sas sarvara???");
+?>
+
+
+3/begin16.php
+<?php
+include "config.php";
+$sql= "INSERT INTO User(Code,Name,Kind,Product,Sum) VALUES ".
+"(1,'Hotel Maritza',1,01,125),".
+"(2,'Restaurant Hawaii',2,02,100),".
+"(3,'Banka BAKB',3,03,155)";
+if ($conn->query($sql) === TRUE)
+   {     echo "<p>Tabliza User e popalnena s 3 zapisa uspe6no";  }
+else {  echo "<p>Error insert table: " . $conn->error; }
+$conn->close();
+?>
+
+4/index16.php
+<a name="menu">
+<html> <head> <title> Mebelna borsa "Zori" </title> </head>
+<body> <h2 align=center> Mebelna borsa "Zori" </h2>
+<big> <b>  <ul>  <li> Operazii  <ol>
+<li><a href="selectall.php"> Vsichki partneri</a> </li>
+<li><a href="balans.php"> Balans na firmata </a> </li>
+<li><a href="append.php"> Dopalvane s nov zapis </a> </li>
+<li><a href="edit.php"> Promenjane na danni </a> </li>
+<li><a href="delete.php"> Iztrivane na zapis </a> </li>
+<li><a href="sort.php"> Sortirane po izbrana kolona </a></li>
+</form> </li><li> Tarsene na klienti, koito sa zaplatili nad vuvedenata stoinost
+<form name="f2" action="suma.php" method="post">
+Zadaite dolna granitza za sumata:
+<input type="text" name="max" size=9>
+<input type="submit" value="Tarsene po suma">
+</form> </li>
+</ul> </body> </html>
+
+5/selectall16.php
+<html> <head> <title> Vsi4ki danni </title> </head>
+<body bgcolor=lightgreen>
+<h2> Vsichki danni </h2>
+<table border=4 bordercolor=black cellspacing=0
+  cellpadding=9 width=66%>
+<caption><big><b>Mebelna borsa "Zori"</b></big></caption>
+<tr  bgcolor=cyan> <th> Kod <th> Ime <th> Vid <th>Produkt<th> Suma </tr>
+<?php
+include "config.php";
+$sql="SELECT * FROM User ORDER BY CODE";
+$result=$conn->query($sql);
+if ($result->num_rows > 0) 
+{   // output data of each row
+  while($row = $result->fetch_assoc())    {
+    echo "<tr bgcolor=yellow>\n";
+    echo "<td>". $row["Code"] .
+    "<td>" . $row["Name"] .
+    "<td>" . $row["Kind"] .
+    "<td>" . $row["Product"] .
+    "<td>" . $row["Sum"];                         }
+} else echo "0 results";
+$conn->close();  ?>
+</table> <p>
+Legenda za vid klient: 1 => platil cqlata suma; 2 => 15 %;  3 => konsignaciq.<p>
+Legenda za kod na produkta: 01=>leglo ; 02=> masa ; 03=> stol; <p> 
+<p> <a href="index.htm#menu>"> Menu =>  </a>
+</body> </html>
+
+6/append16.php
+<html>  <head>  <title> Append </title>  </head>
+<body bgcolor=Lightblue>  <h3> Append </h3>
+
+<?php
+include "config.php";
+if(isset($_POST['submit']))
+{
+  $sql= "INSERT INTO User (Code,Name,Kind,Product,Sum) VALUES (" .
+  (int)$_POST["Code"] . ",'" .
+  $_POST["Name"] . "'," .
+  (int)$_POST["Kind"] . "," .
+  (int)$_POST["Product"] ."," . 
+  (float)$_POST["Sum"] . ")";
+  $result=$conn->query($sql);
+  if($result===TRUE) 
+    echo "<font color='green'><b>Zapisat  e  dobaven    uspeshno!</b></font>";
+    else  echo "<font color='red'><b>Zapisat  ne  e  dobaven  uspeshno!</b></font>";
+}
+?>
+<form name = "f1" method="post">
+  Vid na klienta:
+    <input type="radio" name="user" value="1" checked="checked"> platil cqlata suma &nbsp;
+    <input type="radio" name="user" value="2">samo 15 %&nbsp;<br>
+    <input type="radio" name="user" value="3"> konsignaciq <br>
+    <input type="submit" name="submit2" value="Izberete">
+	<?php
+		    if(isset($_POST['User']))
+		       $help = $_POST['User'];
+		       else $help="1";
+    ?>
+   </form>    <p>
+  <form name="f2" method="post">
+	 Kod: <input type="text" size="6" name="Code"
+	            value="<?php
+$sql='select Code from User ORDER BY Code DESC';
+$result=$conn->query($sql);
+
+$res=$result->fetch_assoc();
+echo $res['Code']+1;
+?>" />
+ <p>Ime: <input type="text" size="32" name="Name">
+ <p>Vid: <input type="text" size="5" name="Kind" value =" <?php echo $help;  ?> " >
+ <p>Produkt: <input type="text" size="6" name="Product">
+<p>Suma: <input type="text" size="33" name="Sum">
+  <p>
+<input type="submit" name="submit" value="Dobavqne">
+</form>
+<?php
+$conn->close();
+?>
+Legenda za kod na produkta: 01=>leglo ; 02=> masa ; 03=> stol; <p>
+<p> <a href="index.htm#menu"> Menu =>> </a>
+</body>  </html>
+
+7/edit16.php
+
+<html> <head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<title> Promenjane </title> </head>
+<body bgcolor=Lightblue>
+<h3> Promenjane na danni </h3>
+<?php
+include "config.php";
+if(isset($_GET['edit']) && $_GET['edit'])
+{
+$sql="SELECT * FROM User WHERE Code=" . (int)$_GET['edit'];
+$result=$conn->query($sql);
+$row=$result->fetch_assoc();
+?>
+<form method="post" action="edit.php">
+<table cellpadding="8">
+<tr>
+<td> Kod: </td>
+<td> <input type="hidden" size="6" name="Code"
+value="<?php echo $row['Code']; ?>" /></td>
+</tr>
+<tr>
+<td>Ime:</td>
+<td><input type="text" size="32" name="Name"
+value="<?php echo $row['Name']; ?>" /></td>
+</tr>
+<tr>
+<td>Vid (1=vzemane; 2=doplashtane ; 3=zadaljenie):</td>
+<td><input type="text" size="8" name="Kind"
+value="<?php echo $row['Kind']; ?>" /></td>
+</tr>
+<tr>
+<td>Produkt:</td>
+<td><input type="text" size="6" name="Produkt"
+value="<?php echo $row['Product']; ?>" /></td>
+</tr>
+<tr>
+<td>Broi zaplateni ili zaqveni produkti:</td>
+<td><input type="text" size="6" name="Broi"
+value="<?php echo $row['Suma']; ?>" /></td>
+</tr>
+
+</table><p>
+<input type="submit" name="submit" value="Promeni">
+</form>
+<?php
+} else {
+if(isset($_POST['submit']))
+{
+  $sql="UPDATE User SET Name='" . $_POST['Name'] . "',Kind=" .(int) $_POST['Kind'].
+  ",Product=" .(int) $_POST['Product'] . 
+  ",Sum=" .(float) $_POST['Sum'] . "WHERE Code=" . (int) $_POST['Code'];
+  $result=$conn->query($sql);
+}
+  $result=$conn->query("SELECT * FROM User ORDER BY Name ASC");
+  
+if ($result->num_rows <= 0)
+    echo "0 results";
+  else
+  {
+    $zag=array("Kod","Ime","Vid","Produkt","Suma");
+  ?>
+  <table border="4" bordercolor="black" cellpadding="15" cellspacing="0" bgcolor="yellow">
+  <tr>
+  <?php
+    foreach($zag as $v) echo "<th bgcolor='lime'>" .$v. "</th>";
+  ?>
+  </tr>
+<?php
+ while($row = $result->fetch_assoc())
+    {
+ ?>
+ <tr bgcolor=yellow>;
+ <td> <?php echo $row["Code"]; ?> </td>
+ <td> <?php echo $row["Name"]; ?> </td>
+ <td> <?php echo $row["Kind"]; ?> </td>
+ <td> <?php echo $row["Product"]; ?> </td>
+  <td> <?php echo $row["Sum"]; ?> </td>
+ <td align=center> <a href="edit.php?edit=<?php echo $row['Code']; ?>"> Promeni </a> </td>
+ </tr>
+ <?php
+ }
+ }
+ }
+?>
+</table>
+<?php   $conn->close();  ?>
+<p> <a href="index.htm#Menu"> Menu =>> </a>
+</body> </html>
+
+8/delete16.php
+
+<html> <head> <title> Iztrivane </title> </head>
+<body bgcolor=Lightblue>
+<h3> Iztrivane na danni </h3>
+
+<?php
+include "config.php";
+if(isset($_GET['del']))
+{
+  $sql="DELETE FROM User WHERE Code=" .(int)$_GET['del'];
+  $result=$conn->query($sql);
+}
+$sql="SELECT * FROM User ORDER BY Name ASC";
+$result=$conn->query($sql);
+if ($result->num_rows <= 0)
+    echo "0 results";
+else
+{
+  $zag=array("Kod","Ime","Vid","Produkt","Suma","<font color=red>Iztrivane</font>");
+  ?>
+<table border="4" bordercolor="black" cellpadding="15" cellspacing="0" bgcolor="yellow">
+<tr>
+<?php
+  foreach($zag as $v) echo "<th bgcolor='lime'>" .$v. "</th>";
+?>
+</tr>
+<?php
+ while($row = $result->fetch_assoc())
+    {
+ ?>
+ <tr bgcolor=yellow>;
+ <td> <?php echo $row["Code"]; ?> </td>
+ <td> <?php echo $row["Name"]; ?> </td>
+ <td> <?php echo $row["Kind"]; ?> </td>
+ <td> <?php echo $row["Product"]; ?> </td>
+ <td> <?php echo $row["Sum"]; ?> </td>
+ <td align=center> <a href="delete.php?del=<?php echo $row['Code']; ?>"> Iztrij </a> </td>
+ </tr>
+ <?php
+ }
+ }
+ $conn->close();
+?>
+</table>
+<p> <a href="index.htm#Menu"> Menu =>> </a>
+</body> </html>
+
+9/sort16.php
+
+<html> <head> <title> Sortirane </title> </head>
+<body bgcolor=Lightblue>
+<h2> Sortirane po izbrana kolona </h2>
+<table border="4" bordercolor="black" cellpadding="15" cellspacing="0" bgcolor="lightgreen" width=50%>
+<caption> <b> <big> Za sortirane kliknete v ime na kolona </big> </b> </caption>
+<tr>
+<th bgcolor="yellow"> <a href="sort.php?vid=Code"> Kod </a> </th>
+<th bgcolor="lime"> <a href="sort.php?vid=Name"> Ime </a> </th>
+<th bgcolor="silver"> <a href="sort.php?vid=Kind"> Vid </a> </th>
+<th bgcolor="lightblue"> <a href="sort.php?vid=Product"> Produkt </a> </th>
+<th bgcolor="lightblue"> <a href="sort.php?vid=Sum"> Suma </a> </th>
+</tr>
+
+<?php
+if( isset($_REQUEST['vid']) && $_REQUEST['vid'] != "")
+   $vid = $_REQUEST['vid'];
+else $vid="Code";
+$vid=urlencode($vid);
+echo "<a href='sort.php?vid=$vid'>";
+include "config.php";
+$sql="SELECT * FROM User ORDER BY " . $vid . " ASC";
+$result=$conn->query($sql);
+if ($result-> num_rows <= 0)
+    echo "0 results";
+else
+  {
+?>
+</tr>
+
+<?php
+while($row = $result->fetch_assoc())
+{
+?>
+<tr>
+<td align=center><?php echo $row["Code"] ?> </td>
+<td><?php echo $row["Name"] ?></td>
+<td><?php echo $row["Kind"] ?></td>
+<td><?php echo $row["Product"] ?></td>
+<td><?php echo $row["Sum"] ?></td>
+
+</tr>
+
+<?php
+}
+}
+$conn->close();
+?>
+</table> <p>
+<a href="index.htm#menu"> Menu =>> </a>
+</body> </html>
+
+10/ suma16.php
+<html> <head> <title> Tarsene </title> </head>
+<body bgcolor=Lightblue>
+<h2>Tarsene po suma </h2>
+<?php
+include "config.php";
+$result=null;
+if(isset($_POST['max']))
+  $sql="SELECT * FROM User WHERE Kind = 2 AND Sum > " .(float)$_POST['max']. " ORDER BY Sum ASC";
+else
+  $sql="SELECT * FROM User WHERE Kind = 2 AND Sum > 0 ORDER BY Sum ASC";
+$result=$conn->query($sql);
+if ($result->num_rows <= 0)
+    echo "0 results";
+else
+{
+  $zag=array("Kod","Ime","Vid","Produkt","Suma");
+?>
+
+<table border="4" bordercolor="black" cellpadding="15" cellspacing="0" bgcolor="yellow"  width=50%>
+<caption> <b> <big> Partneri, na koito firmata ima zadaljenia nad <?php echo $_POST['max']; ?> leva: </big></b></caption>
+<tr>
+<?php
+foreach($zag as $v) echo "<th bgcolor='lime'>" .$v. "</th>";
+?>
+</tr>
+
+<?php
+while($row = $result->fetch_assoc())
+{ ?>
+<tr>
+<td><?php echo $row["Code"] ; ?></td>
+<td><?php echo $row["Name"] ; ?></td>
+<td><?php echo $row["Kind"] ; ?></td>
+<td><?php echo $row["Product"] ; ?></td>
+<td><?php echo $row["Sum"] ; ?></td>
+</tr>
+<?php
+}
+}
+?>
+</table> <p>
+<?php  $conn->close();  ?> 
+<a href="index.htm#Menu"> Menu=>> </a>
+</body>  </html>
+
+11/balans16.php
+
+<html> <head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<title> Balans </title> </head>
+<body bgcolor=lightgreen>
+<h3> Balans na firmata </h3>
+<table border=4 bordercolor=black cellspacing=0 cellpadding=15 width=50%>
+<caption><big><b> Balans na firmata </b></big></caption>
+<tr bgcolor=cyan> <th> Kod <th> Ime
+<th> Vid na sumata <th> Suma  </tr>
+
+<?php
+include "config.php";
+$s=0;
+$sql="SELECT * FROM User";
+$result=$conn->query($sql);
+if ($result->num_rows > 0)
+{
+  while($row = $result->fetch_assoc())
+  {
+    echo "<tr bgcolor=yellow>\n";
+    echo "<td>". $row["Code"].
+    "<td>" . $row["Name"].
+    "<td>" . $row["Kind"].
+    "<td>" . $row["Sum"];
+    if($row["Kind"]==1)
+	  $s+=$row["Sum"];
+	else $s-=$row["Sum"];
+	echo "</tr>\n";
+  }
+} else echo "0 results";
+$conn->close();
+
+$s=round($s,2);
+echo "<tr bgcolor=yellow>";
+echo "<th colspan=2> Balans:";
+echo "<th colspan=2>" . $s . "</tr>\n";
+?>
+</table>  <p>
+Legenda za vida: 1 => vzemane;  2 => zadaljenie.
+<p> <a href="index.htm#menu>"> Menu =>  </a>
+</body> </html>
+
+
+
+

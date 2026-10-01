@@ -1,0 +1,2 @@
+C:\Users\grmed\source\repos\ProgramThatFindsTheSumOfTheNumbersFrom1To10\Debug\ProgramThatFindsTheSumOfTheNumbersFrom1To10.exe
+C:\Users\grmed\source\repos\ProgramThatFindsTheSumOfTheNumbersFrom1To10\Debug\ProgramThatFindsTheSumOfTheNumbersFrom1To10.pdb

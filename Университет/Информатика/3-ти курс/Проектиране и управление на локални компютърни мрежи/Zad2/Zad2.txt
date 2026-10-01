@@ -1,0 +1,223 @@
+cisco router----------------------
+R1#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#interface f0/0
+R1(config-if)#ip address 192.168.0.1 255.255.255.0
+R1(config-if)#no shutdown
+R1(config-if)#
+*Mar  1 00:16:53.475: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar  1 00:16:54.475: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+R1(config-if)#int f0/1
+R1(config-if)#ip address 192.168.10.1 255.255.255.0
+R1(config-if)#no shut
+R1(config-if)#
+*Mar  1 00:19:24.467: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Mar  1 00:19:25.467: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+R1(config-if)#exit
+R1(config)#ip dhcp pool p0
+R1(dhcp-config)#network 192.168.0.0 255.255.255.0
+R1(dhcp-config)#default-router 192.168.0.1
+R1(dhcp-config)#dns-server 192.168.0.1
+R1(dhcp-config)#flease 1 12 15
+                ^
+% Invalid input detected at '^' marker.
+
+R1(dhcp-config)#flease 1 12 15
+                ^
+% Invalid input detected at '^' marker.
+
+R1(dhcp-config)#domain-name test.com
+R1(dhcp-config)#exit
+R1(config)#ip dhcp pool p1
+R1(dhcp-config)#network 192.168.10.0 255.255.255.0
+R1(dhcp-config)#default-router 192.168.10.1
+R1(dhcp-config)#dns-server 192.168.10.1
+R1(dhcp-config)#flease 1 12 15
+                ^
+% Invalid input detected at '^' marker.
+
+R1(dhcp-config)#flease 1 12 15
+                ^
+% Invalid input detected at '^' marker.
+
+R1(dhcp-config)#domain-name test.com
+R1(dhcp-config)#exit
+R1(config)#ip dhcp excluded-address 192.168.0.1 192.168.0.50
+R1(config)#ip dhcp excluded-address 192.168.10.1 192.168.10.50
+R1(config)#exit
+R1#
+*Mar  1 00:42:13.243: %SYS-5-CONFIG_I: Configured from console by console
+R1#wr
+Building configuration...
+[OK]
+
+pc1-----------------------
+PC1> ip dhcp
+DDORA IP 192.168.0.51/24 GW 192.168.0.1
+
+PC1> show ip
+
+NAME        : PC1[1]
+IP/MASK     : 192.168.0.51/24
+GATEWAY     : 192.168.0.1
+DNS         : 192.168.0.1
+DHCP SERVER : 192.168.0.1
+DHCP LEASE  : 86393, 86400/43200/75600
+DOMAIN NAME : test.com
+MAC         : 00:50:79:66:68:00
+LPORT       : 10010
+RHOST:PORT  : 127.0.0.1:10011
+MTU:        : 1500
+
+PC1> ping 192.168.0.52
+84 bytes from 192.168.0.52 icmp_seq=1 ttl=64 time=0.685 ms
+84 bytes from 192.168.0.52 icmp_seq=2 ttl=64 time=0.902 ms
+84 bytes from 192.168.0.52 icmp_seq=3 ttl=64 time=0.789 ms
+84 bytes from 192.168.0.52 icmp_seq=4 ttl=64 time=0.762 ms
+84 bytes from 192.168.0.52 icmp_seq=5 ttl=64 time=0.727 ms
+
+PC1> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC1>
+
+pc2---------------
+PC2> ip dhcp
+DDORA IP 192.168.0.52/24 GW 192.168.0.1
+
+PC2> show ip
+
+NAME        : PC2[1]
+IP/MASK     : 192.168.0.52/24
+GATEWAY     : 192.168.0.1
+DNS         : 192.168.0.1
+DHCP SERVER : 192.168.0.1
+DHCP LEASE  : 86389, 86400/43200/75600
+DOMAIN NAME : test.com
+MAC         : 00:50:79:66:68:01
+LPORT       : 10012
+RHOST:PORT  : 127.0.0.1:10013
+MTU:        : 1500
+
+PC2> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC2>
+
+pc3-----------------
+PC3> ip dhcp
+DDORA IP 192.168.0.53/24 GW 192.168.0.1
+
+PC3> ip dhcp
+DORA IP 192.168.0.53/24 GW 192.168.0.1
+
+PC3> show ip
+
+NAME        : PC3[1]
+IP/MASK     : 192.168.0.53/24
+GATEWAY     : 192.168.0.1
+DNS         : 192.168.0.1
+DHCP SERVER : 192.168.0.1
+DHCP LEASE  : 86349, 86400/43200/75600
+DOMAIN NAME : test.com
+MAC         : 00:50:79:66:68:02
+LPORT       : 10014
+RHOST:PORT  : 127.0.0.1:10015
+MTU:        : 1500
+
+PC3> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC3>
+
+pc4--------------
+PC4> ip dhcp
+DDORA IP 192.168.10.51/24 GW 192.168.10.1
+
+PC4> show ip
+
+NAME        : PC4[1]
+IP/MASK     : 192.168.10.51/24
+GATEWAY     : 192.168.10.1
+DNS         : 192.168.10.1
+DHCP SERVER : 192.168.10.1
+DHCP LEASE  : 86351, 86400/43200/75600
+DOMAIN NAME : test.com
+MAC         : 00:50:79:66:68:03
+LPORT       : 10026
+RHOST:PORT  : 127.0.0.1:10027
+MTU:        : 1500
+
+PC4> ping 192.168.10/53
+192.168.10 icmp_seq=1 timeout
+192.168.10 icmp_seq=2 timeout
+192.168.10 icmp_seq=3 timeout
+ping 1192.168.10 icmp_seq=4 timeout
+92192.168.10 icmp_seq=5 timeout
+
+PC4> ping 192.168.10.53
+84 bytes from 192.168.10.53 icmp_seq=1 ttl=64 time=0.549 ms
+84 bytes from 192.168.10.53 icmp_seq=2 ttl=64 time=0.695 ms
+84 bytes from 192.168.10.53 icmp_seq=3 ttl=64 time=0.908 ms
+84 bytes from 192.168.10.53 icmp_seq=4 ttl=64 time=0.626 ms
+84 bytes from 192.168.10.53 icmp_seq=5 ttl=64 time=0.978 ms
+
+PC4> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC4>
+
+
+pc5-----------------
+PC5> ip dhcp
+DDORA IP 192.168.10.52/24 GW 192.168.10.1
+
+PC5> show ip
+
+NAME        : PC5[1]
+IP/MASK     : 192.168.10.52/24
+GATEWAY     : 192.168.10.1
+DNS         : 192.168.10.1
+DHCP SERVER : 192.168.10.1
+DHCP LEASE  : 86357, 86400/43200/75600
+DOMAIN NAME : test.com
+MAC         : 00:50:79:66:68:04
+LPORT       : 10028
+RHOST:PORT  : 127.0.0.1:10029
+MTU:        : 1500
+
+PC5> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC5>
+
+
+pc6-------------------------
+PC6> ip dhcp
+DDORA IP 192.168.10.53/24 GW 192.168.10.1
+
+PC6> show ip
+
+NAME        : PC6[1]
+IP/MASK     : 192.168.10.53/24
+GATEWAY     : 192.168.10.1
+DNS         : 192.168.10.1
+DHCP SERVER : 192.168.10.1
+DHCP LEASE  : 86363, 86400/43200/75600
+DOMAIN NAME : test.com
+MAC         : 00:50:79:66:68:05
+LPORT       : 10030
+RHOST:PORT  : 127.0.0.1:10031
+MTU:        : 1500
+
+PC6> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC6>
+

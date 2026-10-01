@@ -1,0 +1,244 @@
+esw1---------------------
+ESW1#vlan database
+ESW1(vlan)#exit
+APPLY completed.
+Exiting....
+ESW1#show vlan-switch brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa1/0, Fa1/1, Fa1/2, Fa1/3
+                                                Fa1/4, Fa1/5, Fa1/6, Fa1/7
+                                                Fa1/8, Fa1/9, Fa1/10, Fa1/11
+                                                Fa1/12, Fa1/13, Fa1/14, Fa1/15
+1002 fddi-default                     active
+1003 token-ring-default               active
+1004 fddinet-default                  active
+1005 trnet-default                    active
+ESW1#vlan database
+ESW1(vlan)#vlan 100 name vlan100
+VLAN 100 added:
+    Name: vlan100
+ESW1(vlan)#vlan 200 name vlan200
+VLAN 200 added:
+    Name: vlan200
+ESW1(vlan)#show vlan-switch brief
+                ^
+% Invalid input detected at '^' marker.
+
+ESW1(vlan)#show vlan-switch brief
+                ^
+% Invalid input detected at '^' marker.
+
+ESW1(vlan)#exit
+APPLY completed.
+Exiting....
+ESW1#show vlan-switch brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa1/0, Fa1/1, Fa1/2, Fa1/3
+                                                Fa1/4, Fa1/5, Fa1/6, Fa1/7
+                                                Fa1/8, Fa1/9, Fa1/10, Fa1/11
+                                                Fa1/12, Fa1/13, Fa1/14, Fa1/15
+100  vlan100                          active
+200  vlan200                          active
+1002 fddi-default                     active
+1003 token-ring-default               active
+1004 fddinet-default                  active
+1005 trnet-default                    active
+ESW1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESW1(config)#int f1/1
+ESW1(config-if)#switchport mode access
+ESW1(config-if)#switchport access vlan 100
+ESW1(config-if)#exit
+ESW1(config)#int f1/2
+ESW1(config-if)#switchport mode access
+ESW1(config-if)#switchport access vlan 200
+ESW1(config-if)#exit
+ESW1(config)#exit
+ESW1#
+*Mar  1 00:12:20.235: %SYS-5-CONFIG_I: Configured from console by console
+ESW1#show vlan-switch brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa1/0, Fa1/3, Fa1/4, Fa1/5
+                                                Fa1/6, Fa1/7, Fa1/8, Fa1/9
+                                                Fa1/10, Fa1/11, Fa1/12, Fa1/13
+                                                Fa1/14, Fa1/15
+100  vlan100                          active    Fa1/1
+200  vlan200                          active    Fa1/2
+1002 fddi-default                     active
+1003 token-ring-default               active
+1004 fddinet-default                  active
+1005 trnet-default                    active
+ESW1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESW1(config)#int f1/15
+ESW1(config-if)#switchport mode access trunk
+                                       ^
+% Invalid input detected at '^' marker.
+
+ESW1(config-if)#exit
+ESW1(config)#int f1/15
+ESW1(config-if)#switchport mode access trunk
+                                       ^
+% Invalid input detected at '^' marker.
+
+ESW1(config-if)#exit
+ESW1(config)#exit
+ESW1#
+*Mar  1 00:19:37.911: %SYS-5-CONFIG_I: Configured from console by console
+ESW1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESW1(config)#int f1/15
+ESW1(config-if)#switchport mode  trunk
+ESW1(config-if)#
+*Mar  1 00:20:48.507: %DTP-5-TRUNKPORTON: Port Fa1/15 has become dot1q trunk
+ESW1(config-if)#exit
+ESW1(config)#exit
+ESW1#
+*Mar  1 00:20:54.615: %SYS-5-CONFIG_I: Configured from console by console
+ESW1#write
+Building configuration...
+[OK]
+ESW1#
+
+
+esw2-------------------------------
+ESW2#vlan database
+ESW2(vlan)#vlan 100 name vlan100
+VLAN 100 added:
+    Name: vlan100
+ESW2(vlan)#vlan 200 name vlan200
+VLAN 200 added:
+    Name: vlan200
+ESW2(vlan)#exit
+APPLY completed.
+Exiting....
+ESW2#show vlan-switch brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa1/0, Fa1/1, Fa1/2, Fa1/3
+                                                Fa1/4, Fa1/5, Fa1/6, Fa1/7
+                                                Fa1/8, Fa1/9, Fa1/10, Fa1/11
+                                                Fa1/12, Fa1/13, Fa1/14, Fa1/15
+100  vlan100                          active
+200  vlan200                          active
+1002 fddi-default                     active
+1003 token-ring-default               active
+1004 fddinet-default                  active
+1005 trnet-default                    active
+ESW2#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESW2(config)#int f1/1
+ESW2(config-if)#switchport mode access
+ESW2(config-if)#switchport access vlan 100
+ESW2(config-if)#exit
+ESW2(config)#int f1/2
+ESW2(config-if)#switchport mode access
+ESW2(config-if)#switchport access vlan 200
+ESW2(config-if)#exit
+ESW2(config)#exit
+ESW2#s
+*Mar  1 00:14:58.283: %SYS-5-CONFIG_I: Configured from console by console
+ESW2#show vlan-switch brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa1/0, Fa1/3, Fa1/4, Fa1/5
+                                                Fa1/6, Fa1/7, Fa1/8, Fa1/9
+                                                Fa1/10, Fa1/11, Fa1/12, Fa1/13
+                                                Fa1/14, Fa1/15
+100  vlan100                          active    Fa1/1
+200  vlan200                          active    Fa1/2
+1002 fddi-default                     active
+1003 token-ring-default               active
+1004 fddinet-default                  active
+1005 trnet-default                    active
+ESW2#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESW2(config)#int f1/15
+ESW2(config-if)#switchport mode trunk
+ESW2(config-if)#
+*Mar  1 00:20:03.923: %DTP-5-TRUNKPORTON: Port Fa1/15 has become dot1q trunk
+ESW2(config-if)#exit
+ESW2(config)#exit
+ESW2#
+*Mar  1 00:20:15.919: %SYS-5-CONFIG_I: Configured from console by console
+ESW2#wr
+Building configuration...
+[OK]
+ESW2#
+
+
+pc1-----------------------
+PC1> ip 192.168.0.10/24
+Checking for duplicate address...
+PC1 : 192.168.0.10 255.255.255.0
+
+PC1> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC1> ping 192.168.0.30
+84 bytes from 192.168.0.30 icmp_seq=1 ttl=64 time=1.197 ms
+84 bytes from 192.168.0.30 icmp_seq=2 ttl=64 time=1.385 ms
+84 bytes from 192.168.0.30 icmp_seq=3 ttl=64 time=1.691 ms
+84 bytes from 192.168.0.30 icmp_seq=4 ttl=64 time=1.653 ms
+84 bytes from 192.168.0.30 icmp_seq=5 ttl=64 time=1.630 ms
+
+PC1> ping 192.168.0.40
+host (192.168.0.40) not reachable
+
+
+pc2---------------------------
+PC2> ip 192.168.0.20/24
+Checking for duplicate address...
+PC1 : 192.168.0.20 255.255.255.0
+
+PC2> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC2> ping 192.168.0.40
+84 bytes from 192.168.0.40 icmp_seq=1 ttl=64 time=1.384 ms
+84 bytes from 192.168.0.40 icmp_seq=2 ttl=64 time=2.099 ms
+84 bytes from 192.168.0.40 icmp_seq=3 ttl=64 time=1.420 ms
+84 bytes from 192.168.0.40 icmp_seq=4 ttl=64 time=1.442 ms
+84 bytes from 192.168.0.40 icmp_seq=5 ttl=64 time=1.344 ms
+
+PC2> ping 192.168.0.30
+host (192.168.0.30) not reachable
+
+
+
+pc3------------------------
+PC3> ip 192.168.0.30/24
+Checking for duplicate address...
+PC1 : 192.168.0.30 255.255.255.0
+
+PC3> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC3> ping 192.168.0.10
+84 bytes from 192.168.0.10 icmp_seq=1 ttl=64 time=2.480 ms
+84 bytes from 192.168.0.10 icmp_seq=2 ttl=64 time=1.622 ms
+84 bytes from 192.168.0.10 icmp_seq=3 ttl=64 time=1.707 ms
+84 bytes from 192.168.0.10 icmp_seq=4 ttl=64 time=1.443 ms
+84 bytes from 192.168.0.10 icmp_seq=5 ttl=64 time=1.325 ms
+
+
+
+pc4--------------------------
+PC4> ip 192.168.0.40/24
+Checking for duplicate address...
+PC1 : 192.168.0.40 255.255.255.0
+
+PC4> save
+Saving startup configuration to startup.vpc
+.  done

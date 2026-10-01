@@ -1,0 +1,60 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+Table User {
+  id integer [primary key]
+  email varchar unique
+  password varchar
+  phone varchar
+  role varchar
+  first_name varchar
+  last_name varchar
+  created_at datetime
+}
+
+Table Estate {
+  id integer [primary key]
+  category_id int 
+  title varchar [not null]  
+  description varchar
+  city varchar [not null]  
+  price double [not null]  
+  area double [not null]  
+  address varchar 
+  lat double
+  lont double
+  user_id int [not null]  
+  created_at timestamp
+}
+
+Table Category {
+  id integer [primary key]
+  name varchar
+  created_at timestamp
+}
+
+Table Offer{
+  id integer [primary key]
+  sum double
+  offered_by_user int
+  offered_for_estate int
+  create_at datetime
+  state varchar
+}
+
+Table Message{
+  id integer [primary key]
+  text varchar
+  from_user int
+  to_user int
+  offer_id int
+  created_at datetime
+}
+
+Ref Estate: Estate.category_id > Category.id 
+Ref Estate: Estate.user_id > User.id 
+Ref Offer: Offer.offered_by_user > User.id 
+Ref Offer: Offer.offered_for_estate > Estate.id 
+Ref Message: Message.from_user > User.id 
+Ref Message: Message.to_user > User.id 
+Ref Message: Message.offer_id > Offer.id 

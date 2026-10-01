@@ -1,0 +1,12 @@
+  Source.cpp
+  The contents of <numbers> are available only with C++20 or later.
+C:\Users\grmed\source\repos\temp-float\Source.cpp(42,3): error C2065: 's': undeclared identifier
+C:\Users\grmed\source\repos\temp-float\Source.cpp(42,26): error C2065: 'a': undeclared identifier
+C:\Users\grmed\source\repos\temp-float\Source.cpp(42,42): error C2065: 'h': undeclared identifier
+C:\Users\grmed\source\repos\temp-float\Source.cpp(43,16): error C2065: 's': undeclared identifier
+C:\Users\grmed\source\repos\temp-float\Source.cpp(43,18): error C2059: syntax error: '.'
+C:\Users\grmed\source\repos\temp-float\Source.cpp(45,3): error C2065: 'h': undeclared identifier
+C:\Users\grmed\source\repos\temp-float\Source.cpp(46,8): error C2065: 's': undeclared identifier
+C:\Users\grmed\source\repos\temp-float\Source.cpp(47,3): error C2065: 's': undeclared identifier
+C:\Users\grmed\source\repos\temp-float\Source.cpp(47,9): error C2065: 'a': undeclared identifier
+C:\Users\grmed\source\repos\temp-float\Source.cpp(49,10): error C2065: 's': undeclared identifier

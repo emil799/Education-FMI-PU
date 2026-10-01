@@ -1,0 +1,10 @@
+#snimka{
+border:10px solid transparent;
+padding:15px;
+border-image:url(border.png) 30 round;
+}
+#snimka1{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}

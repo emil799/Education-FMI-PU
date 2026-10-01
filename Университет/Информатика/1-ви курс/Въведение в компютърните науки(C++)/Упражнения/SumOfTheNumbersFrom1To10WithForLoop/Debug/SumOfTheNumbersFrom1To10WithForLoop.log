@@ -1,0 +1,2 @@
+  Source.cpp
+C:\Users\grmed\source\repos\SumOfTheNumbersFrom1To10WithForLoop\Source.cpp(9,20): error C2065: 'sum': undeclared identifier

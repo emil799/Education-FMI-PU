@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="javascript">
+function Toto()
+{
+var num=new Array()
+for (var i=0; i<6;i++)
+{var add = true;
+ number=Math.floor(Math.random()*49+1);
+    for(j = 0; j < 6; j++)
+      {
+      if(num[j] == number){add = false;}
+      }
+       if(add){num.push(number);}
+    else
+    { i--;}
+}
+document.write(num);
+}
+</script>
+</head>
+<body>
+How to play Toto 6/49<br>
+<script>Toto()</script>
+</body>
+</html>

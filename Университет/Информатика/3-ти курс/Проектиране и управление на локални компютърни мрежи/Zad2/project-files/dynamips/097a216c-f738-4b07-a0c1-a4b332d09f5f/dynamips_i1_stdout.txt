@@ -1,0 +1,23 @@
+cygwin warning:
+  MS-DOS style path detected: C:\Users\fmi\GNS3\projects\Zad2\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/c/Users/fmi/GNS3/projects/Zad2/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+memzone_create_file: open: No such file or directory
+dev_create_ram: mmap: No such file or directory
+RAM: unable to create device.
+load_elf_image: invalid load address 0xffffffff80008000
+C3725 'Ghost': failed to load Cisco IOS image 'C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN'.
+memzone_create_file: open: No such file or directory
+dev_create_ram: mmap: No such file or directory
+RAM: unable to create device.
+disk_create: open: Permission denied
+load_elf_image: invalid load address 0xffffffff80008000
+C3725 'Ghost': failed to load Cisco IOS image 'C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN'.
+memzone_create_file: open: No such file or directory
+dev_create_ram: mmap: No such file or directory
+RAM: unable to create device.
+disk_create: open: Permission denied
+load_elf_image: invalid load address 0xffffffff80008000
+C3725 'Ghost': failed to load Cisco IOS image 'C:/Users/fmi/GNS3/images/IOS/C3725-AD.BIN'.

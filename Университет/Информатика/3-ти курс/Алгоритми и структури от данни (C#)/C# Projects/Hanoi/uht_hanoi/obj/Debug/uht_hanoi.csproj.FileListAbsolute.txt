@@ -1,0 +1,46 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\bin\Debug\uht_hanoi.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe.config
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\bin\Debug\uht_hanoi.pdb
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.csprojResolveAssemblyReference.cache
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.Form1.resources
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.Properties.Resources.resources
+G:\Users\Angel\Documents\Visual Studio 2013\Projects\UHT\uht_hanoi\uht_hanoi\obj\Debug\uht_hanoi.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe.config
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.exe
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.pdb
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.pdb
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.Form1.resources
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.Properties.Resources.resources
+C:\Users\angel\Desktop\Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.csproj.GenerateResource.Cache
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe.config
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.exe
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.pdb
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.pdb
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.Form1.resources
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.Properties.Resources.resources
+C:\Users\angel\Desktop\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.csproj.GenerateResource.Cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe.config
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\bin\Debug\uht_hanoi.pdb
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.Form1.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.Properties.Resources.resources
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.csproj.GenerateResource.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.exe
+C:\Users\angel\Documents\Desktop\FMI\C# Projects\Hanoi\uht_hanoi\obj\Debug\uht_hanoi.pdb

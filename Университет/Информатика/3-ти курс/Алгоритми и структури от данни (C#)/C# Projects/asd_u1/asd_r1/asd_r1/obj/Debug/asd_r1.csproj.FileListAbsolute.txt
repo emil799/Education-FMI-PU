@@ -1,0 +1,9 @@
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\bin\Debug\asd_r1.exe.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\bin\Debug\asd_r1.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\bin\Debug\asd_r1.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\obj\Debug\asd_r1.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\obj\Debug\asd_r1.Form1.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\obj\Debug\asd_r1.Properties.Resources.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\obj\Debug\asd_r1.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\obj\Debug\asd_r1.exe
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\asd_u1\asd_r1\asd_r1\obj\Debug\asd_r1.pdb
